@@ -1,3 +1,19 @@
+# Local files
+.DS_Store
+.vscode/
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
 # Logs
 logs
 *.log
@@ -19,6 +35,12 @@ coverage
 
 # nyc test coverage
 .nyc_output
+
+# Brunch folder for temporary files.
+tmp/
+
+# Brunch output folder.
+public/
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
